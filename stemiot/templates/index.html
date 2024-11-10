@@ -1,0 +1,812 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Stemiot Softwares Webpage</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/StemiotLogo.jpeg' %}" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+         <img src="{% static 'assets/img/StemiotLogo.jpeg' %}" alt="MyLogo" >
+        <h1 class="sitename">STEMIOT SOFTWARES</h1>
+                </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Skills</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+
+              <li><a href="#">Graphic & Design</a></li>
+              <li><a href="#">System Programming</a></li>
+              <li><a href="#">Mobile Applications Development</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+
+              <h1 class="mb-4">
+                Developing the best <br>
+                Websites for your Businesses <br>
+              </h1>
+
+              <p class="mb-4 mb-md-5">
+               Stemiot Softwares is a Tech company made up of a team of over 100 skilled programmers who are ready
+                  to work on your website and develop a real life solution that will not only  help your business but will as
+                  well relieve you from many burdens in your daily life.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="{% static 'assets/img/illustration-1.webp' %}" alt="Hero Image" class="img-fluid">
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+<hr class="border border-danger border-2 opacity-50">
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta"><h2>MORE ABOUT US</h2></span>
+            <p class="about-description">We develop modern responsive and eye-catching softwares that have the ability to attract many potential customers.
+            We as well ensure that the work provided by the client is worked on and delivered within the shortest time possible to avoid any inconveniences. The client's satisfaction is the Stemiot Company's core mandate.
+            Stemiot Softwares Company is under the management of an able Tech enthusiast by the name Engineer Stephen Otieno alongside other administrative hardworking partners
+               <br>As a company, some of our major areas of specialization include: </p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Website Development</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Mobile Application Development</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Systems Programming</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Database Management</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Graphics Designing</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Computer Repair and assemble</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Call us anytime</p>
+                      <p class="contact-number">+254 115 598 800</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+          <hr class="border border-danger border-2 opacity-50">
+
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Stemiot Softwares feature in the following modules and languages when it comes to Web Programming:</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="d-flex justify-content-center">
+
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                <h4>HTML</h4>
+              </a>
+            </li><!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                <h4>CSS</h4>
+              </a><!-- End tab nav item -->
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                <h4>Python</h4>
+              </a>
+            </li><!-- End tab nav item -->
+
+          </ul>
+
+        </div>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Web Structuring and Display</h3>
+                <p class="fst-italic">
+                  Our skilled programmers have more than enough knowledge when it comes to structuring of the web pages using Hypertext Markup Language (HTML).
+                    The HTML is so essential in our web programming and designing since it is the one that describes how the webpage should look like.
+
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Web Structuring and designing using HTML.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Webpage Outline and Display in any kind and sizes of devices.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Sizing and re-sizing of the webpages smoothly.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-illustration-1.webp' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Web Styling and Designing </h3>
+                <p class="fst-italic">
+                  Cascading Stylesheet has so far remained to be the best styling module for the webpages. With the help of HTML classes and ids
+                    we easily and freely use the CSS to style our webpages and make them even more appealing and attractive in the eyes of the people who visits our websites.
+
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Page display and styling .</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Theme, contrast and display of the websites on any devices.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Appealing and attractiveness of the websites.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>User-friendly interfaces and simple to use and navigate through .</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-illustration-2.webp' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Responsiveness and Interaction with the webpage</h3>
+                   <p class="fst-italic">
+                 Python as a programming language together with some of it's frameworks like Django are collectively used to define the responsiveness and interactivity of the website in the back end/server side.
+                       It makes the webpage to respond as quicly as possible whenever the user interacts with the page.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Page responsiveness and interactivity.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Webpage loading and readability.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Setting environment and web views.</span></li>
+                </ul>
+
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-illustration-3.webp' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+    <section id="features-2" class="features-2 section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-4">
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Use On Any Device</h3>
+                  <p>The websites built by Stemiot Softwares have the ability to run smoothly regardless of the device that the user is operating with. The webpages are well structured and equiped with the necessary meta tags hence not limited
+                      to operate on the specific type of gadgets.</p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-display"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Feather Icons</h3>
+                  <p>The icons are well structured, defined and arranged systematically in each and every page of the website to ease the navigation of the user in the website without much straining.</p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-feather"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Retina Ready</h3>
+                  <p>Brightness features and the theme of the webpage is also sorted using the CSS so that the user does not strain to see.</p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-eye"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="phone-mockup text-center">
+              <img src="{% static 'assets/img/phone-app-screen.webp' %}" alt="Phone Mockup" class="img-fluid">
+            </div>
+          </div><!-- End Phone Mockup -->
+
+          <div class="col-lg-4">
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-code-square"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>W3c Valid Code</h3>
+                  <p>The codes written at Stemiot Softwares are valid codes that run smoothly on any machine. The codes have undergone several stages of testing and debugging to ensure
+                      that even the webpages run smoothly without any problem.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Fully Responsive</h3>
+                  <p>Python frameworks like Django has been used to enhance the responsiveness of the websites. The responsiveness of the webpage is initiated in the back end of the webpage
+                      and this even increases the interactivity of the page with the user.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-browser-chrome"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Browser Compatibility</h3>
+                  <p>Our webpages are compatible with all the webpages that has ever been to existence. They are well and perfectly displayed in all versions of the modern browsers.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features 2 Section -->
+
+
+{#    </section><!-- /Clients Section -->#}
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Shortlisted below are some of our satisfied customers with whom we have worked for.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item">
+              <img src="{% static 'assets/img/testimonials/StemiotCEO.jpg' %}" class="testimonial-img" alt="">
+              <h3>Stephen Otieno</h3>
+              <h4>Ceo &amp; Founder</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Stemiot Softwares is the best company fit for website development for both personal and business use. I got my attractive and responsive website from Stemiot Softwares within two working days only.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item">
+              <img src="{% static 'assets/img/testimonials/testimonials-2.jpg' %}" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>As a designer I never had a thought that even the developers had some taste in the designing field. Initially I had some doubt but now I fully trust that it is possible, courtesy of Stemiot Softwares company.
+                Right now I have among the best websites in the hood to display my business, Kudos to Stemiot Softwares!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item">
+              <img src="{% static 'assets/img/testimonials/download.jpeg' %}" class="testimonial-img" alt="">
+              <h3>Maurice Kioko</h3>
+              <h4>Store Owner</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>As the store owner of our organisation, I found it tiresome and expensive to use sales person to market our products and therefore we resolved
+                    to make use of the online marketing. We were not sure initially if the method was going to work until we came across this team of developers known as Stemiot, they worked magic in our website and we experienced
+                    some profits that we never anticipated for. Thanks to Stemiot Softwares Company.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-item">
+              <img src="{% static 'assets/img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
+              <h3>John Mwangi</h3>
+              <h4>Freelancer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>In freelancing, for a freelancer to find it easy to bid for a job or to hire someone to work on his/her task, the freelancing site must be made friendly and easy to understand.
+                    Through Stemiot Softwares we were able to increase the number of those who apply for jobs with us with approximately 2000+ net increase compared to the previous years.
+                    We extend our warm gratitude to Stemiot Softwares company for enabling us to realize such a tremendous increase in profitability.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+<hr class="border border-danger border-2 opacity-50">
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Stemiot Softwares company is best known to provide the best programming and developing services. Some of these include: </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-activity"></i>
+              </div>
+              <div>
+                <h3>Web Development</h3>
+                <p>Stemiot Softwares utilizes the modern programming tools in the development of the webpages and portfolios to give their clients the  best taste when it comes to the digital marketing and self-profiling reputations.</p>
+                  We utilize the languages like Python, JavaScript, Django, HTML and CSS in building our websites to enable them have the modern outlook of a functional website.
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-diagram-3"></i>
+              </div>
+              <div>
+                <h3>Mobile Application Development.</h3>
+                <p>We develop android and MAC mobile apps that wre well structured and fully-functional and then in collaboration with the mobile manufacturing companies we ensure that
+                    the programs are safely loaded to the cpu and the motherboards of the devices. The users feedback on their experiences with our applications has been positive so far and we haven't got any complains yet.</p>
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-easel"></i>
+              </div>
+              <div>
+                <h3>Database Creation and Management</h3>
+                <p>We create databases and manage them for the interested clients. We as well do all the programming part and linking of the websites to the databases for the clients so that the client remains with the simplest part of the entire bulk.</p>
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-clipboard-data"></i>
+              </div>
+              <div>
+                <h3>Graphics Designing</h3>
+                <p>We design business and organisation logos, banners, posters, attires and webpages. For a good start in any business, the outlook and the organisation of the firm is so crucial. When it comes to Designing, Stemiot Softwares team got your back, never hesitate to reach us.</p>
+              </div>
+            </div>
+          </div><!-- End Service Card -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+<hr class="border border-danger border-2 opacity-50">
+
+    <!-- Faq Section -->
+    <section class="faq-9 faq section light-background" id="faq">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5" data-aos="fade-up">
+            <h2 class="faq-title">Have a question? Check out the FAQ</h2>
+            <p class="faq-description">We got all the answers to your questions. Feel free to ask any question and our customer care desk will respond to you as soon as possible.</p>
+            <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
+              <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>What are some of the Services offered by Stemiot Softwares?</h3>
+                <div class="faq-content">
+                  <p>Stemiot Softwares offers a wide variety of services beginning from Web development, Mobile Application Development, Database Management, Computer repairing and assembling upto Graphics Designing amongst others.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Who is the founder of Stemiot Softwares Company?</h3>
+                <div class="faq-content">
+                  <p>Stemiot Softwares company was found by a scholar and software engineer known as Engineer Stephen Otieno. He came up with the idea of starting this company in order to provide a long-lasting solution to the businesses that had problems when it comes to marketing their commodities. The company was established in 2021.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>What are the charges for developing a fully functional website?</h3>
+                <div class="faq-content">
+                  <p>Our prices vary depending on the number of pages the website will have and the functionalities to be added as well as the purpose of the website. Some websites needs frequent maintenance and therefore the pricing will vary as well. You can reach us using our contacts in contacts section and describe your needs, we guarantee immediate response.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>What are the goals of Stemiot Softwares as a company?</h3>
+                <div class="faq-content">
+                  <p>Our main goal is to be of service to the society and to ensure customer satisfaction as we venture into the modern world of new technology. Your satisfaction is our prime course.</p>
+                </div>
+              </div><!-- End Faq item-->
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Faq Section -->
+
+    <!-- Call To Action 2 Section -->
+    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>We are always up to the task and we operate throughout, whether on a weekend, weekday or even a holiday we have you covered. You can always reach us through our email address or phone numbers provided below.</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>For our clients satisfaction we are forever available and upto the task. Below are our contacts</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+              <p>We have several modes of reaching us, the cheapest, easiest and convenient for you will be our pride. Our pleasure is to serve you.</p>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>A108 Sega Street</p>
+                  <p>Nairobi, kenya 535022</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+254 115 598 800</p>
+                  <p>+254 781 585 652</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>engineerotienoduor14@gmail.com</p>
+                  <p>stephenotieno8781@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>You can leave us a short message below as well so that we get back to you as soon as possible.</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Stemiot</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Sega Street</p>
+            <p>Nairobi, Kenya 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+254 115 598 800</span></p>
+            <p><strong>Email:</strong> <span>engineerotienoduor14@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Locations</h4>
+          <ul>
+            <li><a href="#">River Road Towers, HQ</a></li>
+            <li><a href="#">Haile Selasie Plaza, 3rd floor</a></li>
+            <li><a href="#">Guaca Highway</a></li>
+            <li><a href="#">Dilecta streets</a></li>
+            <li><a href="#">Kisii Town</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Projects</h4>
+          <ul>
+            <li><a href="#">Ipsam Webpage Design</a></li>
+            <li><a href="#">Water Supply System Program</a></li>
+            <li><a href="#">Dinera Portfolios</a></li>
+            <li><a href="#">Trodelas Inua Jamii</a></li>
+            <li><a href="#">Samsung Dev Group</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Stemiot Technologies</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+
+        Designed by <a href="">Stemiot Softwares</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
